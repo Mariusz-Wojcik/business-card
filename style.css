@@ -28,7 +28,8 @@ body{
 }
 
 .person{
-
+    display: flex;
+    align-items: flex-start;
 }
 
 .person__content{
@@ -39,6 +40,10 @@ body{
 
 .person__content--with-margin{
     margin-bottom: 22px;
+}
+
+.person__image{
+margin-right:32px;
 }
 
 .person__info{
